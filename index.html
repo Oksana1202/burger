@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ссылка в фокусе</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="back">
+      <div class="brd">
+        <header class="header">
+          <div class="header_left">
+            <button class="header_button_burger">
+              <img
+                src="./foto/burger.svg"
+                alt="burger"
+                class="header_burger_img"
+              />
+            </button>
+            <img src="./foto/logo.svg" alt="logo" class="header_logo_img" />
+          </div>
+          <div class="header_right">
+            <button class="header_button_poisk">
+              <img
+                src="./foto/poisk.svg"
+                alt="poisk"
+                class="header_poisk_img"
+              />
+            </button>
+          </div>
+        </header>
+        <main class="main_burger">
+          <div class="main_navbar">
+            <nav>
+              <ul class="menu" id="menu" role="navigation">
+                <li class="menu_item">Ремонт техники</li>
+                <li class="menu_item">Услуги и сервисы</li>
+                <li class="menu_item">Корпоративным клиентам</li>
+                <li class="menu_item">Продавцам техники</li>
+                <li class="menu_item">Партнерам</li>
+                <li class="menu_item">Производителям</li>
+                <li class="menu_item">Наши сервисные центры</li>
+                <li class="menu_item">Контакты</li>
+              </ul>
+            </nav>
+          </div>
+        </main>
+        <footer>
+          <div class="footer">
+            <div class="footer_buttons">
+              <button class="footer_button" aria-label="Позвонить">
+                <img
+                  src="./foto/call.svg"
+                  alt="Телефонный звонок"
+                  class="footer_call_img"
+                />
+              </button>
+              <button class="footer_button" aria-label="Отправить сообщение">
+                <img
+                  src="./foto/sms.svg"
+                  alt="Отправить сообщение"
+                  class="footer_sms_img"
+                />
+              </button>
+              <button class="footer_button" aria-label="Контакты">
+                <img
+                  src="./foto/contacts.svg"
+                  alt="Контакты"
+                  class="footer_contacts_img"
+                />
+              </button>
+            </div>
+            <a href="mailto:mail@cps.com" class="email-link">mail@cps.com</a>
+            <p class="aside__phone-number">8 800 890 8900</p>
+            <div id="languages">
+              <p class="language_selector" id="description">
+                <button
+                  class="language_selector_active"
+                  onclick="switchLanguage('RU')"
+                  aria-label="Выбрать русский язык"
+                >
+                  RU
+                </button>
+                <button
+                  class="language_selector_inactive"
+                  onclick="switchLanguage('EN')"
+                  aria-label="Выбрать английский язык"
+                >
+                  EN
+                </button>
+                <button
+                  class="language_selector_inactive"
+                  onclick="switchLanguage('CH')"
+                  aria-label="Выбрать китайский язык"
+                >
+                  CH
+                </button>
+              </p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
