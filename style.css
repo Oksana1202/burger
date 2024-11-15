@@ -34,7 +34,7 @@ body {
 
 .brd {
   width: 320px;
-  height: 1020px;
+  height: 100vh;
   box-shadow: 16px 0px 52px 0px #0e185033, -2px 0px 4px 0px #454f7e05;
   background-color: var(--background-color);
 }
@@ -116,6 +116,7 @@ body {
   cursor: pointer;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .menu_item {
@@ -141,7 +142,7 @@ body {
 }
 
 .footer {
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
   left: 0;
 }
